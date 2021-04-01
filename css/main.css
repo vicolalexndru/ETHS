@@ -1,0 +1,1158 @@
+
+p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+p, #navigation ul li a, .description_container p, #slogan h2, 
+.showmore_button, #who_we_are h3, .page_title h1, .benefit_text h3, 
+.contact_details ul li h4, .contact_details span, .contact_form p,
+input.submit_input, .footer_contact_details li, .services_links li, .footer_titles h3, input.submit_input{
+    font-family: 'robotoregular';
+}
+
+.banner p, .page_title, .bathroom_collapse i, #testimonials span,
+.question h3, input.text_input,  #footer_testimonials span,  #footer_testimonials p{
+    font-family: 'robotoitalic';
+}
+
+.description_container h2, .banner h2, #we_are_different h2, 
+.house_extension h3, #design_build h2, #services h2, #bathroom_fitters,
+#testimonials h2, #footer_testimonials h4{
+    font-family: 'oranienbaumregular';
+}
+
+a,span,i,input {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+/* ======= Start Header ======*/
+
+#header{
+    padding: 0 ;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid #ffc200;
+    background: #fff;
+    z-index: 1000;
+}
+
+
+#navigation ul{
+    margin:60px 0  0;
+    padding: 0;
+    list-style: none;
+}
+
+#navigation ul li{
+    float: left;
+    height: 40px;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#navigation ul li a{
+    font-size: 16px;
+    text-decoration: none;
+     color: #999;
+    line-height: 40px;
+}
+
+#navigation ul li a:hover{
+    color: #ffc200;
+}
+
+.current_page{
+   background: #e8e8e8;
+   color: #fff;
+}
+
+#navigation ul li ul{
+      margin-top: 20px;
+}
+
+#navigation ul li li{
+   background: #ffc200;
+   text-align: left; 
+   width: 320px;
+   display: none;
+   padding-left: 20px;
+   height: 40px;
+   margin-bottom: none;
+}
+
+#navigation ul li li a { 
+   color: #fff;
+}  
+
+#navigation ul li li a:hover{
+    color: #000;
+}
+
+#logo {
+  
+    margin-top: 15px;
+}
+
+/* ====== End Header ======*/
+
+.m-btn {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background:  #ffc200;
+    line-height: 45px;
+    text-align: center;
+}
+
+.m-btn i{
+    color: #fff;
+    font-size: 24px;
+}
+
+.m-btn i:hover{
+    color:#000;
+    cursor: pointer;
+}
+
+#slogan{
+    width: 100%;
+    padding: 260px 0 160px;
+    background: url(../images/slogan-bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+#slogan h2{
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.phone i {
+    font-size: 32px;
+    color: #ffc200;
+}
+
+.phone a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social_menu ul {
+    margin:100px 30px 0 0;
+    float: right;
+}
+
+.social_menu li {
+    list-style: none;
+    display: inline;
+}
+
+.social_menu li a{
+    font-size: 24px;
+    color: #fff;
+}
+
+.social_menu li a:hover{
+   color: #ffc200;
+}
+
+
+#description{
+    padding: 100px 0;
+}
+
+.description_container h2{
+   font-size: 36px;
+   line-height: 48px;
+   color: #000;
+   margin: 15px 0 0;
+}
+
+.description_container p{
+    margin-top: 20px;
+}
+
+.banner {
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    background:#ffc200;
+}
+
+.banner h2{
+    font-size: 36px;
+    color: #fff;
+}
+
+.banner p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.img_container{
+    padding: 80px 0 60px;
+}
+
+.img_container p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img_container hr{
+    width: 70%;
+}
+
+.house_extension{
+    margin-bottom:70px;
+}
+
+
+/* ===== Start Shore more styles =====*/
+
+.showmore_content{
+    position:relative; 
+    overflow:hidden; 
+}  
+
+.showmore_button{ 
+    width:20%; 
+    height:40px; 
+    border: 2px solid #ffc200;
+    line-height:40px; 
+    background:#ffc200;
+    cursor:pointer;
+    color: #fff;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.showmore_button:hover{
+    background: none;
+    color: #000;
+}
+
+.showmore_button span  { display:block; }
+
+/* ===== End Shore more styles =====*/
+
+
+/* ===== Start Who we are Page style =====*/
+
+#who_we_are{
+    width: 100%;
+    padding-bottom:60px;
+    background: url(../images/about_us_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+#who_we_are p{
+    float: left;
+    color: #fff;
+}
+
+#who_we_are h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+#who_we_are hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 55px;
+    border: 2px solid #ffc200;
+    float: left;
+}
+
+.page_title{
+    padding: 150px 0 100px;
+}
+
+.page_title h1{
+   font-size: 48px;
+   text-align: center;
+   color: #fff;
+}
+
+.page_title{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+} 
+
+#we_are_different{
+    padding: 80px 0;
+}
+
+#we_are_different h2{
+    color: #000;
+}
+
+#benefits{
+    padding: 50px;
+}
+
+.benefit_text {
+    border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 30px;
+}
+
+.benefit_text h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.benefit_text p{
+    float: left;
+    margin-top: 10px;
+}
+
+.benefit_text hr{
+    width: 55px;
+    float: left;
+    border: 2px solid #ffc200;
+    margin: 0;
+}
+
+.benefit_icon{
+   height: 175px;
+   text-align: center;
+   line-height: 195px;
+   font-size: 80px;
+   color:#dfdedc;
+}
+
+.clear{
+    clear: both;
+}
+
+#design_build{
+    padding-bottom: 70px;
+}
+
+#design_build h2{
+    font-size: 36px;
+    color: #000;
+}
+
+
+/* ===== End Who we are Page style =====*/
+
+
+/* ===== Start Services Pages style =====*/
+
+#services{
+    padding: 60px 0;
+}
+
+#services h2{
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.services_nav {
+    padding: 40px 0;
+}
+
+.services_nav ul{
+    padding: 0;
+}
+
+.services_nav h4{
+    font-family: 'robotoitalic';
+    color: #999;
+}
+
+.services_nav li {
+    list-style: none;
+    height: 40px;
+    background: #ffc200;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 15px;   
+}
+
+.services_nav li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.services_nav li a:hover{
+   color: #000;
+}
+.planning_t{
+     width: 100%;
+     background: url(../images/planning_bg.jpg)no-repeat center center fixed;
+     background-size: cover;
+}
+
+.margin_img{
+    margin-top: 50px;
+
+}
+
+.loft_img{
+    margin-top: 70px;
+}
+
+#bathroom{
+    padding-bottom: 60px;
+    width: 100%;
+    padding-bottom:60px;
+    background: url(../images/bathroom_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+.bathroom p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.bathroom_images{
+    padding: 60px 0;
+}
+
+.bathroom_carousel .b_img{
+  margin: 15px;
+}
+.bathroom_carousel .b_img img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#bathroom_fitters {
+    padding: 90px 0;
+}
+
+#bathroom_fitters h2{
+    font-size: 36px;
+    color: #000;
+}
+
+#bathroom_fitters p{
+    
+    margin-top: 10px;
+}
+
+.bathroom_collapse i{
+    font-size: 18px;
+    color: #000;
+}
+
+/* ===== End Services Pages style =====*/
+
+/* ===== Start Testimonials Page style =====*/
+
+#testimonials_id{
+   padding: 30px 0;
+}
+
+#testimonials_id h2{
+    font-size: 36px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border: 2px solid #000;
+}
+
+#testimonials p{
+    margin-top: 20px;
+}
+
+#testimonials span{
+    font-size:18px;
+    color: #000;
+    float: right;
+}
+
+.testimonials_bg{
+    background: url(../images/testimonials_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ===== End Testimonials Page style =====*/
+#gallery {
+    padding: 60px 0 ;
+}
+
+.gallery_row{
+    margin-top: 30px;
+}
+
+.gallery_title{
+    background: url(../images/gallery_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*-----------------*/
+/***** Hera *****/
+/*-----------------*/
+
+figure.effect-hera {
+    background:#ffc801;
+}
+
+figure.effect-hera p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+}
+
+figure.effect-hera figcaption::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #000;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+    transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+}
+
+figure.effect-hera p {
+    width: 100px;
+    text-transform: none;
+    font-size: 121%;
+    text-align: center;
+}
+
+figure.effect-hera p a {
+    color: #000;
+}
+
+figure.effect-hera p a:hover,
+figure.effect-hera p a:focus {
+    opacity: 0.6;
+}
+
+figure.effect-hera p a i {
+    font-size: 48px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-hera p a:first-child i {
+    -webkit-transform: translate3d(-60px,-60px,0);
+    transform: translate3d(-60px,-60px,0);
+}
+
+figure.effect-hera p a:nth-child(2) i {
+    -webkit-transform: translate3d(60px,-60px,0);
+    transform: translate3d(60px,-60px,0);
+}
+
+figure.effect-hera p a:nth-child(3) i {
+    -webkit-transform: translate3d(-60px,60px,0);
+    transform: translate3d(-60px,60px,0);
+}
+
+figure.effect-hera p a:nth-child(4) i {
+    -webkit-transform: translate3d(60px,60px,0);
+    transform: translate3d(60px,60px,0);
+}
+
+figure.effect-hera:hover figcaption::before {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+    transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+}
+
+
+figure.effect-hera:hover p i:empty {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0); /* just because it's stronger than nth-child */
+    opacity: 1;
+}
+
+figure.effect-hera:hover img {
+    opacity: 0.15;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.25,1.25,1);
+    transform: scale3d(1.25,1.25,1);
+}
+
+/*-----------------*/
+
+
+/*======= Gallery Page End ========= */
+
+/* ===== Start Frequently asked Questions Page style =====*/
+
+#faqs{
+    padding: 30px 0;
+}
+
+.question{
+    padding-bottom: 30px;
+}
+
+.question h3{
+    font-size: 24px;
+    border-left: 2px solid #eaeaea;
+    padding-left: 10px;
+}
+
+.question p{
+    margin-top: 20px;
+}
+
+.faqs_title{
+    background: url(../images/faqs_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ===== End Frequently asked Questions Page style =====*/
+
+
+/* ===== Start Contact Page style =====*/
+#contact{
+    padding: 50px 0;
+}
+
+.contact_title{
+    background: url(../images/contact_bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.contact_details ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.contact_details ul li{
+    margin-top: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+
+.contact_details ul li h4{
+  font-size: 18px;
+  color: #000;
+}
+
+.contact_details hr{
+    width: 25px;
+}
+
+.contact_details i{
+    font-size: 24px;
+    color: #ffc200;
+}
+
+.contact_details span{
+    font-size: 16px;
+    color: #999;
+}
+
+.contact_form p{
+    padding-left: 10px;
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #000;border-left: 3px solid #ffc200;
+}
+
+input.text_input, input.submit_input{
+    width: 262px;
+    height: 40px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 0;
+    border: 1px solid #e8e8e8;
+    padding-left: 15px;
+    color: #999;
+
+}
+
+input.submit_input{
+   background:  #ffc200;
+   border: none;
+   color: #fff;float: right;
+   border: 2px solid  #ffc200;
+   font-size: 18px;
+}
+
+input.submit_input:hover{
+    
+    background: #fff;
+    color: #000;
+
+}
+
+/* ===== End Contact Page style =====*/
+
+/* ===== Start Footer =====*/
+
+#footer{
+    background: #f8f8f8;
+    border-top: 1px solid #eee;
+    padding: 50px 0 0;
+}
+
+.footer_titles h3{
+   font-size: 24px;
+   margin: 0;
+   padding:0;
+}
+
+.footer_titles hr{
+    margin: 5px 0 0;
+    padding: 0;
+    border: 1px solid #ffc200;
+    width: 45px;
+}
+
+.footer_contact_details ul{
+   margin: 0;
+   padding: 0;
+}
+
+
+.footer_contact_details li{
+    list-style: none;
+    margin-top:14px;
+    font-size: 16px;
+    color: #999;
+}
+
+.footer_contact_details li i{
+    font-size: 24px;
+    color: #ffc200;
+}
+
+.footer_social_menu ul {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.footer_social_menu li {
+    list-style: none;
+    display: inline;
+
+}
+
+.footer_social_menu li a{
+    font-size: 24px;
+    color: #999;
+}
+
+
+.footer_social_menu li a:hover{
+   color: #ffc200;
+}
+
+.services_links ul{
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.services_links li{
+    list-style: none;
+    margin-top:10px;
+}
+
+.services_links li a{
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+}
+
+
+.services_links li a:hover{
+    color: #000;
+}
+
+.services_links li i{
+    color: #ffc200;
+}
+
+.rights{
+   margin-top: 30px;
+   border-top: 1px solid #eee;
+   padding: 20px 0;
+   text-align: center;
+}
+
+#footer_testimonials h4{
+    margin-top: 30px;
+}
+
+#footer_testimonials span{
+    color: #999;
+    font-size: 18px;
+    float: right;
+    margin-top: 10px;
+    background: 
+}
+
+
+
+/* ===== End Footer =====*/
+
+
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+        #navigation ul li{ width: 110px;}
+       
+    }
+
+      
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width: 992px){
+        
+       #header{ position:relative; display: none; }
+              
+       #logo{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+       } 
+         
+      
+       #logo img { 
+       	width: 120px;
+        margin: 0 auto;
+       }
+
+        #navigation ul {
+            position: relative;
+            padding: 0;   
+        } 
+
+        #navigation ul li{
+            width: 38%;
+            float: none;
+            margin: 0 auto;
+            text-align: center;           
+        }
+
+        #navigation ul li ul{
+           
+            margin: 0 auto;
+           
+        }
+
+        #navigation ul li li{
+           margin: 0 ; margin: 0 auto;
+           padding: 0;
+           text-align: center;
+           width: 230px;
+       }
+
+        #slogan{
+            padding: 160px 0 ;
+        }
+
+        .phone {
+           text-align: center;
+        }
+         
+        #description{
+           padding: 30px 0;
+        }
+
+        .banner h2{
+           font-size: 32px;
+        }
+
+        .banner p{ 
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+        .img_container{
+            padding: 30px 0 60px;
+        }
+
+        .img_container img{
+            margin-top: 30px;
+        }
+
+        .house_extension{
+            padding: 25px 0;
+        }
+
+        .page_title{
+           padding: 60px 0;
+        }
+
+        #we_are_different{
+           padding: 40px 0;
+        }
+
+        .benefit_icon{
+           height: 105px;
+           line-height: 105px;
+        }
+
+        #services{
+            padding: 30px 0;
+        }
+
+        .margin_img{
+            margin-top: 20px;
+        }
+
+        .loft_img{
+            margin-top: 20px;
+        }
+
+        #bathroom_fitters {
+            padding: 50px 0;
+        }
+
+        #testimonials{
+            padding: 10px 0;
+            font-size: 24px;
+        }
+
+        #testimonials h2{
+            font-size: 24px;
+        }
+
+        .question{
+            margin-top: 40px;
+        }
+
+        input.submit_input{
+           float: left;
+        }
+
+        .contact_form p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        #footer_testimonials p{
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        #footer_testimonials span{
+            font-size: 16px;
+        }
+
+        #footer_testimonials h4{
+            margin-top: 15px;
+        }
+
+        #footer{
+           
+            padding: 20px 0 0;
+        }
+
+        .rights{
+            margin-top: 0;
+        }
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 320px) and (max-width: 767px){
+
+        #header{ position:relative; display: none; }
+              
+       #logo{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+       } 
+         
+      
+       #logo img { 
+        margin: 0 auto;
+       }
+
+
+        #navigation ul {
+            position: relative;
+            padding: 0;
+            
+        } 
+
+        #navigation ul li{
+            width: 38%;
+            float: none;
+            margin: 0 auto;
+            text-align: center;           
+        }
+
+        #navigation ul li ul{
+           
+            margin: 0 auto;
+           
+        }
+
+        #navigation ul li li{
+           margin: 0 ; margin: 0 auto;
+           padding: 0;
+           text-align: center;
+           width: 230px;
+       }
+         
+       #slogan{
+          padding: 100px 0;
+       }
+
+       #slogan h2{
+           font-size: 26px;
+       }  
+
+       .phone {
+           text-align: center;
+        }
+
+        #description{
+           padding: 20px 0;
+        }
+
+        .description_container h2{
+           font-size: 24px;
+           line-height: 36px;
+        }
+
+        .description_container p{
+           margin-top: 5px;
+        }
+
+        .showmore_button{ 
+            width:120px; 
+        }
+
+        .banner h2{
+           font-size: 26px;
+        }
+
+        .banner p{ 
+            font-size: 14px;
+            line-height: 22px;
+            margin-top: 10px;
+        }
+
+        .img_container{
+            padding: 20px 0;
+        }
+
+        .img_container img{
+            margin-top: 20px;
+        }
+
+        .page_title{
+           padding: 40px 0;
+        }
+
+        .page_title h1{
+            font-size: 36px 
+        }
+
+        #we_are_different{
+           padding: 20px 0;
+        } 
+
+        .benefit_icon{
+           height: 65px;
+           line-height: 65px;
+           font-size: 60px;
+        }
+
+        #services{
+            padding: 20px 0;
+        }
+
+        .margin_img{
+            margin-top: 20px;
+        }
+
+        .loft_img{
+            margin-top: 20px;
+        }
+
+        .bathroom_images{
+            padding: 20px 0;
+        }
+
+        #bathroom_fitters{
+            padding: 20px 0;
+        }
+
+        #bathroom_fitters h2{
+           font-size: 24px;
+        }
+
+        #testimonials h2{
+          width: 90%;
+          font-size: 24px;
+        }
+
+        figure.effect-hera figcaption::before {
+        width: 90px;
+        height: 90px;     
+        }
+
+        .question h3{
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .question{
+            margin-top: 20px;
+        }
+
+        input.submit_input{
+           float: left;
+        }
+
+        .contact_details{
+            margin-top: 20px;
+        }
+
+        #footer {
+            padding: 0;
+            text-align: center;
+        }
+
+        .footer_titles hr{
+            margin: 5px auto 0;
+        }
+
+        .footer_titles{
+           margin-top: 60px;
+        }
+}
